@@ -1,0 +1,23 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: rgba(26, 25, 25, 0.527);
+}
+.quem-somos {
+    background-color: rgb(22, 23, 24);
+    color: cornsilk;
+    text-align: center;
+}
+.margin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.parceiros {
+    background-color: rgb(80, 86, 105);
+    color: rgb(14, 14, 14);
+}
+.bg-footer{
+    background-color:rgba(0, 0, 0, 0.87);
+    color: cornsilk;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meu primeiro exemplo bootstrap</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light"><!--Barra de navegação-->
+        <a class="navbar-brand" href="#">
+           <img src="imagens/logo.png" alt="lord vade" width="100" height="100">
+        </a>   
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#quemsoms">Quem Somos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    <section id="quemsomos" ><!--criando containers-->
+        <div class="container-fluid quem-somos text-center margin">
+        <h3>Quem Somos</h3>
+        <img src="imagens/equipe.jpg" class="rounded-circle" alt="nosso time" width="250" height="250"><!--adcinonado imagem a class para ela ficar redonda-->
+        <h4>Seja bem vindo, essa página é dedicada ao meu aprendizado em bootstrap, fica a vontade para sugerir...</h4>
+    </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin">
+        <h3>Parceiros</h3>
+        <h4>Essa área de parceiros.</h4>
+        <div class="container"><!--Acrescentando area de parceiros carrosel-->
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="imagens/parceiro1.jpg" class="rounded-circle" width="100%" height="100%"><!--mudar depois para o log-->
+            </div>
+            <div class="col-lg-4">
+            <img src="imagens/parceiro1.jpg" width="100%"><!--width100% para imagem se enquadrar -->
+            </div>
+            <div class="col-lg-4">
+            <img src="imagens/parceiro1.jpg" width="100%">
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row" >
+                <div class="col-lg-4">
+                    <p>Nosos Serviços </p>
+                    <img src="imagens/serv1.jpg" width="100%" alt=""> 
+                </div>
+                <div class="col-lg-4">
+                    <p>Exemplo 01</p>
+                    <img src="imagens/serv2.jpg" width="100%" alt="">
+                </div>
+                <div class="col-lg-4">
+                        <p>Exemplo 01</p>
+                        <img src="imagens/serv3.jpg" width="100%" alt="">
+                    </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer margin">
+       <p>2019 Desenvolvido Por Junior Rijo</p> 
+    </footer>
+</body>
+
+</html>
